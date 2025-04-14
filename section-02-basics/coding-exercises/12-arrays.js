@@ -19,7 +19,7 @@ function availableCurr(arr, missingCurr) {
             resCurr.push(value);
         }
     }
-    return str += resCurr.join('\n');
+    return str += resCurr.join('\n') + '\n'
 }
 
 console.log(availableCurr(baseCurrencies, additionalCurrencies));
