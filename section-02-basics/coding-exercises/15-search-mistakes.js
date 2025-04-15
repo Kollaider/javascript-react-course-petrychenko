@@ -26,7 +26,7 @@ const restorantData = {
 
 function isOpen(prop) {
     let answer = '';
-    prop ? answer = 'Закрыто' : answer = 'Открыто';
+    prop ? answer = 'Открыто' : answer = 'Закрыто';
 
     return answer;
 }
