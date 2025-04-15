@@ -50,32 +50,3 @@ movieDB.movies.forEach((film, i) => {
         </li>
     `
 })
-
-
-
-
-
-// document.querySelector('.promo__adv').remove();
-
-
-// const genre = document.querySelector('.promo__genre');
-// genre.textContent = 'ДРАМА';
-// const promoBG = document.querySelector('.promo__bg');
-// console.log(promoBG);
-// promoBG.style.background = "url('../img/bg.jpg') center (center / cover) no-repeat";
-
-// const moviesList = document.querySelector('.promo__interactive-list');
-// moviesList.innerHTML = ''
-
-// function addMovies(movies) {
-//     const sortedMovies = movies.sort((a, b) => a.localeCompare(b, 'ru'));
-//     sortedMovies.forEach((movie) => {
-//         const movieItem = document.createElement('li')
-//         movieItem.classList.add('promo__interactive-item')
-//         movieItem.textContent = movie;
-        
-//         moviesList.append(movieItem)
-//     })
-// }
-
-// addMovies(movieDB.movies);
