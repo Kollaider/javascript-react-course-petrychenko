@@ -86,14 +86,14 @@ const doubleArrayFunc2 = (a) => a * 2;
 const doubleArrayFunc3 = a => a * 2;
 
 // вернемся к примеру с button
-const btn = document.querySelector('button');
+const btn3 = document.querySelector('button');
 btn.addEventListener('click', () => { // будет ошибка т.к. стрелочная функция не имеет своего контекста
     this.style.backgroundColor  = 'red'; // this = undefined
     console.log(this); // <button></button>
 })
 
 // исправленный код
-const btn = document.querySelector('button');
+const btn4 = document.querySelector('button');
 btn.addEventListener('click', (event) => { // используем event.target
     event.target.style.backgroundColor  = 'red'; 
     console.log(this); // <button></button>
